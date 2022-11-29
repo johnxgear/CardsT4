@@ -1,13 +1,15 @@
 html, body{
     margin: 0;
     height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 body{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .container{
+    margin: 0%;
     margin-top: 16px;
     display: flex;
     flex-direction: column;
@@ -27,17 +29,42 @@ body{
     width: 450px;
     background-color: #FADB01;
     color:black;
-    display: block;
     border-radius: 9px;
-    flex-direction: row;
 }
-.T1_texto{
-    margin: 16px 16px;
+.p_arriba{
+    display: flex;
+    width: 15px;
+    height: 15%;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: 10px;  
 }
 
+.T1_texto{
+    width: 50%;
+    margin:15px;
+}
+.T1_texto>h1{
+    font-size: 30px;
+}
 .lap{
     display: flex;
-    width: 100%;
-    height: 70%;
-    
+    width: auto;
+    height: 65%;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: -150px;        
+}
+.p_abajo{
+    display:flex;
+    width: 30px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: -10%;
+}
+.aws_text{
+    display: flex;
+    margin: 15px;
+    font-family: sans-serif;
+    font: 30px;
 }
